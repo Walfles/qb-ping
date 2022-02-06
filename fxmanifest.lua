@@ -5,7 +5,7 @@ game 'gta5'
 
 client_scripts {
     'config.lua',
-	'client/main.lua',
+    'client/main.lua'
 }
 
 server_scripts {
