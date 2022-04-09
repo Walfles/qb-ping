@@ -1,6 +1,6 @@
 # QB Ping system
 
-Simple Ping system for qb old
+Simple Ping system for QBCore
 
 Commands:
 To Ping A Person: /ping [Paypal] |
