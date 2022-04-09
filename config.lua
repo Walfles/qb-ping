@@ -1,8 +1,5 @@
 Config = {}
 
--- Config core 
-Config.CoreSetting = "old" -- Old for QBCore old or New for QBCore new
-
 -- How Long Does The Player Have To Accept The Ping - This Is In Seconds
 Config.Timeout = 30
 
