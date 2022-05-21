@@ -1,20 +1,5 @@
--- QBCORE
-Citizen.CreateThread(function()
-    while QBCore == nil do
-        TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
-        Citizen.Wait(200)
-    end
-	
-	while QBCore.Functions.GetPlayerData().job == nil do
-		Citizen.Wait(10)
-	end
-    PlayerData = QBCore.Functions.GetPlayerData()
-    while QBCore.Functions.GetPlayerData().gang == nil do
-		Citizen.Wait(10)
-    end
-    PlayerGang = QBCore.Functions.GetPlayerData().gang
-	local server = GetCurrentServerEndpoint()
-end)
+-- QBCore 
+local QBCore = exports['qb-core']:GetSharedObject()
 
 local pendingPing = nil
 local isPending = false
